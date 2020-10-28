@@ -1,14 +1,9 @@
 # DHT11 Python library
 
-This simple class can be used for reading temperature and humidity values from DHT11 sensor on Raspberry Pi.
+This simple class can be used for reading temperature and humidity values from DHT11 sensor on CHIP/PocketCHIP.
 
 # Installation
 
-To install, just run following:
-
-```
-pip install dht11
-```
 
 # Usage
 
@@ -18,7 +13,7 @@ pip install dht11
 For example:
 
 ```python
-import RPi.GPIO as GPIO
+import CHIP_IO.GPIO as GPIO
 import dht11
 
 # initialize GPIO
